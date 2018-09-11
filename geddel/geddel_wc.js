@@ -248,7 +248,7 @@ var words = [
 {text: "roubar", size: 8},
 {text: "acharam", size: 8},
 {text: "final", size: 8},
-{text: "“Meu", size: 8},
+{text: "Meu", size: 8},
 {text: "havia", size: 8},
 {text: "denunciados", size: 8},
 {text: "manhã", size: 8},
