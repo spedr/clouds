@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Word Cloud</title>
+    <script src="../lib/d3/d3.js" charset="utf-8"></script>
+    <script src="../lib/d3/d3.layout.cloud.js"></script>
+    <script src="../d3.wordcloud.js"></script>
+    <script src="temer.js"></script>
+  </head>
+  <body style="text-align: center">
+    <div id='wordcloud'></div>
+    <script>
+      d3.wordcloud()
+        .size([1500, 900])
+        .fill(d3.scale.ordinal().range(["#a39023", "#ca895f", "#a15e49", "#4e3822", "#2f1b25"]))
+        .words(words)
+        .onwordclick(function(d, i) {
+          if (d.href) { window.location = d.href; }
+        })
+        .start();
+    </script>
+  </body>
+</html>
