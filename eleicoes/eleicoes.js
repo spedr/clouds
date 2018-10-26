@@ -1,6 +1,6 @@
 var words = [
-{text: "Marina", size: 161},
-{text: "Dilma", size: 152},
+{text: "😅", size: 161},
+{text: "😀", size: 152},
 {text: "voto", size: 150},
 {text: "presidente", size: 137},
 {text: "candidato", size: 132},
@@ -11,7 +11,7 @@ var words = [
 {text: "PSDB", size: 97},
 {text: "mais", size: 95},
 {text: "gold", size: 88},
-{text: "Aécio", size: 79},
+{text: "👺", size: 79},
 {text: "vice", size: 75},
 {text: "governador", size: 73},
 {text: "Campos", size: 72},
